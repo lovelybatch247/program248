@@ -36,6 +36,7 @@ public class Actionclass {
 		WebElement e4=driver.findElement(By.linkText("Popular"));
 		Actions a4=new Actions(driver);
 		a4.contextClick(e4).perform();
+		System.out.println("Hello action class");
 		
 
 	}
